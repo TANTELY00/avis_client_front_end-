@@ -1,7 +1,7 @@
-import ContactForm from './features/contact/ContactForm'
+import ReviewForm from './components/ReviewForm'
 
 function App() {
-  return <ContactForm />
+  return <ReviewForm />
 }
 
 export default App
