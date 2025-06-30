@@ -72,7 +72,7 @@ const ContactForm = () => {
 
     } catch (error) {
       console.error('Erreur lors de l’envoi:', error);
-      typeText('<p>❌ Une erreur est survenue lors de l’envoi.</p>');
+      typeText('<p> Une erreur est survenue lors de l’envoi.</p>');
     } finally {
       setIsLoading(false);
     }
